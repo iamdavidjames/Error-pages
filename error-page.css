@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* this is where the nav will be styled*/
+nav.flex-container {
+    display: flex;
+    background-color:aquamarine;
+    padding: 20px;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+p#lg-side {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+
+div.container {
+    background-color: aquamarine;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div#msg {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img.random {
+    border: 3px solid white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*Animation code*/
+
